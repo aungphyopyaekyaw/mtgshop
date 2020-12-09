@@ -50,7 +50,7 @@
     </nav>
     <!-- End Navbar -->
     <!-- <div class="overlay" id="overlay" onclick="resetBg()"></div> -->
-        <div class="domain-section" style="background-image: url(image/webpage_view.png);">
+        <div class="domain-section" id="ds-rem">
              
             <div class="col-md-6 col-lg-6 col-11 mx-auto my-auto search-box">
                     <div class='console-container'>
@@ -61,7 +61,7 @@
                     </div>
                 <h2>Search your Domain Here</h2>   
                 <div class="input-group form-container">
-                    <input type="text" name="search" class="form-control search-input" placeholder="eg.example.com" 
+                    <input type="text" name="search" class="form-control search-input" placeholder="eg: example.com.mm" 
                     autofocus="autofocus" autocomplete="off" onclick="setBgToDark()">
                     <span class="input-group-btn">
                         <button class="btn btn-search">
@@ -91,6 +91,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     -->
     <script type="text/JavaScript">
+        var bgm = document.getElementById('ds-rem');
+        bgm.setAttribute('style', 'background-image: url("https://aungphyopyaekyaw.github.io/mtgshop/image/webpage_view.png")')
+
         function setBgToDark() {
             document.getElementById("overlay").style.opacity="0.4";
         }
