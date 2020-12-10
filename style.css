@@ -41,7 +41,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 85vh;
 }
 
 .console-container {
@@ -135,9 +135,9 @@ body{
    /* wave section . . . */
 section{
 
-    /* position: relative; */
-    /* width: 100%;
-    height: 80vh; */
+    /* position: relative;
+    width: 100%;
+    height: 100%; */
     overflow: hidden;
 }
 
