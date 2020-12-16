@@ -70,10 +70,10 @@ body{
 .domain-section h2{
     color: #fff;
     font-weight: 600;
-    font-size: 50px;
+    font-size: 45px;
     /* padding: 5px; */
     padding-bottom: 20px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     font-family: 'Roboto', sans-serif;
     text-shadow: 2px 2px 10px #333;
 }
